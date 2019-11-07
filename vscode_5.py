@@ -1,4 +1,9 @@
-print("Sample data to eb printed")
+print("Sample data to be printed")
+print("Gururajan Srinivasan")
 print("O----")
-print("legs")
-print("| | | |")
+print(" ||||\'")
+print("#"*27)
+price =10
+print(price)
+price2=4.5
+print(price2)
