@@ -1,0 +1,11 @@
+first_name = input("Enter your first name")
+last_name = input("Enter your last name")
+name1 = "Hello great ", first_name.capitalize() + " " + last_name.capitalize()
+name2 = "Hello great, {} {}".format(first_name, last_name)
+name4 = "Hello great, {1} {0}".format(first_name, last_name)
+name3 = f"Hello Great, {first_name} {last_name}"
+print(name1)
+print(name2)
+print(name3)
+print(name4)
+# print(name1.upper())
