@@ -7,3 +7,6 @@ price =10
 print(price)
 price2=4.5
 print(price2)
+
+
+
