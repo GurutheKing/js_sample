@@ -18,3 +18,17 @@ else:
     #down_payment =house_cost*0.2
     print("Not eligible for loan")
 #print("Downpayment to be paid is " + str(down_payment))
+
+# length of the input
+
+name=input("please enter your name: ")
+print(len(name))
+length =len(name)
+if length >2 and length <10:
+    print("Thanks for entering the name")
+elif length <3:
+    print("Enter atleast 3 characters")
+elif length >10:
+    print("Please enter the name between 3-10 characters")
+else:
+    print("what else u are thinking?")
