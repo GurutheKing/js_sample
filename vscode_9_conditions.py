@@ -7,10 +7,10 @@
 
 house_cost =1000000
 credit_good =True
-
-if credit_good:
+criminal_record =False
+if credit_good and criminal_record:
     down_payment =house_cost*0.1
 else:
-    down_payment =house_cost*0.1
+    down_payment =house_cost*0.4
 #print("Downpayment to be paid is " + str(down_payment))
 print(f"Downpayment to be paid is ${down_payment}")
